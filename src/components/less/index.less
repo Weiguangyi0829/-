@@ -1,0 +1,242 @@
+.layout {
+    border: 1px solid #d7dde4;
+    background: #f5f7f9;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.layout-logo {
+    width: 100px;
+    height: 30px;
+    background: #5b6270;
+    border-radius: 3px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.layout-nav {
+    width: 220px;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+.bgc{
+    background-color: black;
+}
+
+
+
+
+
+
+
+// 通用设置
+.w-100{
+    width: 100%;
+}
+.f-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-c{
+    display: flex;
+    justify-content: center;
+}
+.f-ac{
+    display: flex;
+    align-content: center;
+}
+.m-c{
+    margin: 0 auto;
+}
+.f-r{
+    display: flex;
+    flex-direction: row;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+.mt-3{
+    margin-top: 30px;
+}
+.mt-7{
+    margin-top: 70px;
+}
+.ml-2{
+    margin-left: 20px;
+}
+.ml-6{
+    margin-left: 60px;
+}
+.mr-2{
+    margin-right: 20px;
+}
+.mr-1{
+    margin-right: 10px;
+}
+.pt-3{
+    padding-top: 30px;
+}
+.pt-5{
+    padding-top: 50px;
+}
+.pr-2p{
+    padding-right:30%;
+}
+.pr-2{
+    padding-right: 20px;
+}
+.pl-2{
+    padding-left: 20px;
+}
+.pl-3{
+    padding-left: 30px;
+}
+.pb-2{
+    padding-bottom: 20px;
+}
+.pb-5{
+    padding-bottom: 50px;
+}
+.pb-14{
+    padding-bottom: 140px;
+}
+.size-15{
+    font-size: 18px;
+}
+.size-18{
+    font-size: 18px;
+}
+.size-23{
+    font-size: 23px;
+}
+.size-26{
+    font-size:26px;
+}
+.size-29{
+    font-size: 29px;
+}
+.size-38{
+    font-size:38px;
+}
+.font-fff{
+    color: white;
+}
+.font-000{
+    color: black;
+}
+.btn-p{
+    padding:0 40px;
+    font-size: 13px;
+    height: 40px;
+    line-height: 20px;
+}
+
+
+//特殊
+
+.head {
+    display: block;
+}
+.card{
+    background-color: #fff;
+}
+.card:hover{
+    background-color: #5b6270;
+    color: #fff;
+}
+.settingfont{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.name-height{
+    height: 30px;
+}
+.name {
+    color: #ffffff;
+    font-size: 13px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.pslogo{
+    color: #ffffff;
+    font-size: 41px;
+    line-height: 65px;
+    margin-right: 20px;
+}
+.homelogo{
+    font-size: 28px;
+    line-height: 65px;
+}
+.homefont{
+    font-size: 18px;
+    text-align: center;
+}
+.homelogo:hover,
+.homefont:hover{
+    color: #ffffff;
+}
+.homespace{
+    color: #e3e3e3;
+    font-size: 22px;
+    margin: 0 20px;
+}
+.homelink{
+    color: #a3a3a3;
+    cursor: pointer;
+}
+
+
+//less
+
+/deep/.ivu-menu-horizontal{
+    line-height: 45px;
+}
+/deep/.ivu-layout-header{
+    padding: 0 40px;
+}
+/deep/.ivu-layout-footer{
+    background-color:#1C1C1C ;
+    color: #ffffff;
+}
+/deep/.layout{
+    min-width: 910px;
+}
+/deep/.ivu-layout-footer{
+    min-width: 1100px;
+}
+/deep/.ivu-input-search{
+    background:#5b6270 !important;
+    border-color:#5b6270 !important;
+}
+/deep/.ivu-input-search:hover{
+    border-color: #2d8cf0!important;
+    background: #2d8cf0!important;
+}
+//媒体查询
+@media screen and (max-width:1400px){
+    .none{
+      display: none;
+    }
+}
+@media screen and (max-width:1270px){
+    .homefont{
+        font-size: 16px;
+    }
+    .homespace{
+      font-size: 20px;
+      margin: 0 3px;
+    }
+}
+
