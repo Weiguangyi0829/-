@@ -1,13 +1,4 @@
-<style lang="less" scoped>
-@import "./less/index.less";
-.layout-footer-center {
-  text-align: center;
-  // background-color: #515a6e;
-}
-.active {
-  display: none;
-}
-</style>
+
 <template>
   <div>
     <div class="layout">
@@ -53,8 +44,7 @@
                   span="12"
                   v-show="active"
                 >
-                <div class="name">魏广逸</div>
-                <div class="name">170204102381</div>
+               <div class="name">Type</div>
                 </Col>
                 <Col
                   span="12"
@@ -168,12 +158,12 @@
             <Col span="12">
             <div class="fr">
               <div><img
-                  src="../assets/wechat.png"
+                  src="_a/wechat.png"
                   width="14px"
                   class="mr-1"
                 >官方微信：</div>
               <img
-                src="../assets/zhbit_QRcode.jpg"
+                src="_a/zhbit_QRcode.jpg"
                 width="90"
               >
             </div>
@@ -181,12 +171,12 @@
             <Col span="12">
             <div class="fr pr-2p">
               <div><img
-                  src="../assets/小程序.png"
+                  src="_a/小程序.png"
                   width="14px"
                   class="mr-1"
                 >微门户：</div>
               <img
-                src="../assets/zhbit_QRcode2.jpg"
+                src="_a/zhbit_QRcode2.jpg"
                 width="87"
               >
             </div>
@@ -199,6 +189,16 @@
     <Footer class="layout-footer-center">2019 &copy; GalileoUtra</Footer>
   </div>
 </template>
+<style lang="less" scoped>
+@import "../less/index.less";
+.layout-footer-center {
+  text-align: center;
+  // background-color: #515a6e;
+}
+.active {
+  display: none;
+}
+</style>
 <script>
 export default {
   name: "index",
@@ -210,7 +210,7 @@ export default {
         { listItem: "我的MG动画", path: "/video" }
       ],
       gList: [
-        { listItem: "近期游戏心得", path: "/sekiro" },
+        { listItem: "近期游戏心得"},
         { listItem: "游戏评分", path: "/grade" }
       ],
       sList: [

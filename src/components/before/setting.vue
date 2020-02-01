@@ -6,15 +6,15 @@
     </Breadcrumb>
     <Content :style="{padding: '24px', minHeight: '800px', background: '#fff'}">
         <Card class="f-c card">
-            <img class="mt-1" src="../assets/logo.png" alt="">
+            <img class="mt-1" src="_a/logo.png" alt="">
             <p class="f-c mt-1 settingfont">暂无设置</p>
         </Card>
          <Card class="f-c card">
-            <img class="mt-1" src="../assets/js.png" alt="">
+            <img class="mt-1" src="_a/js.png" alt="">
             <p class="f-c mt-1 settingfont">暂无设置</p>
         </Card>
          <Card class="f-c card">
-            <img class="mt-1" src="../assets/webpack.png" alt="">
+            <img class="mt-1" src="_a/webpack.png" alt="">
             <p class="f-c mt-1 settingfont">暂无设置</p>
         </Card>
     </Content>
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "./less/index";
+@import "../less/index";
 /deep/.ivu-card-head{
     padding: 0;
 }

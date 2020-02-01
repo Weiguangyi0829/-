@@ -13,7 +13,7 @@
             class="video-js"
           >
             <source
-              src="@/assets/1.mp4"
+              src="_a/1.mp4"
               type="video/mp4"
             >
             您的浏览器不支持 video 标签。
@@ -65,7 +65,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "./less/index";
+@import "../less/index";
 /deep/.vjs-big-play-button {
   bottom: 10%;
   left: 8%;

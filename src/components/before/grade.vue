@@ -205,7 +205,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "./less/index";
+@import "../less/index";
 /deep/.ivu-icon-ios-star,
 /deep/.ivu-icon-ios-star-half,
 .yellow {

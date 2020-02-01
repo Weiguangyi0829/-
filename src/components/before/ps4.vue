@@ -39,7 +39,7 @@
           </template>
           <template slot="extra">
             <img
-              src="@/assets/ps4/large.jpg"
+              src="_a/ps4/large.jpg"
               style="width: 280px"
             >
           </template>
@@ -124,7 +124,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "./less/index";
+@import "../less/index";
 .contain {
   margin: 0 auto;
   width: 1000px;

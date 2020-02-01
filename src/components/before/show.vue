@@ -10,7 +10,7 @@
         <a href="http://www.sony.com.cn">
           <img
             class="sony-logo "
-            src="@/assets/sony.svg"
+            src="_a/sony.svg"
             alt=""
           ></a>
       </div>
@@ -23,25 +23,25 @@
         >
           <CarouselItem>
             <div class="demo-carousel"><img
-                src="../assets/gow.jpg"
+                src="_a/gow.jpg"
                 width="1512"
               ></div>
           </CarouselItem>
           <CarouselItem>
             <div class="demo-carousel"><img
-                src="../assets/sekiro1.jpg"
+                src="_a/sekiro1.jpg"
                 width="1512"
               ></div>
           </CarouselItem>
           <CarouselItem>
             <div class="demo-carousel"><img
-                src="../assets/gta5.jpg"
+                src="_a/gta5.jpg"
                 width="1512"
               ></div>
           </CarouselItem>
           <CarouselItem>
             <div class="demo-carousel"><img
-                src="../assets/horizon.jpg"
+                src="_a/horizon.jpg"
                 width="1512"
               ></div>
           </CarouselItem>
@@ -57,7 +57,7 @@
             offset="6"
           >
           <img
-            src="@/assets/PS4.png"
+            src="_a/PS4.png"
             alt="PS4"
             class="w-100"
           >
@@ -101,7 +101,7 @@
           </Col>
           <Col span="6">
           <img
-            src="@/assets/PS4pro.png"
+            src="_a/PS4pro.png"
             alt="PS4pro"
             class="w-100"
           >
@@ -121,7 +121,7 @@
           class="pl-3"
         >
         <img
-          src="@/assets/三国无双.jpg"
+          src="_a/三国无双.jpg"
           alt="三国无双"
           width="95%"
         >
@@ -132,7 +132,7 @@
           class="pl-3"
         >
         <img
-          src="@/assets/巨像之咆哮.jpg"
+          src="_a/巨像之咆哮.jpg"
           alt="巨像之咆哮"
           width="95%"
         >
@@ -143,7 +143,7 @@
           class="pl-3"
         >
         <img
-          src="@/assets/NBA 2K18.jpg"
+          src="_a/NBA 2K18.jpg"
           alt="NBA 2K18"
           width="95%"
         >
@@ -196,7 +196,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "./less/index";
+@import "../less/index";
 /deep/.ivu-icon-ios-arrow-forward {
   margin: 12px;
 }
@@ -208,7 +208,7 @@ export default {
   margin-bottom: 30px;
 }
 .ps4bg {
-  background-image: url(../assets/PS4bg.png);
+  background-image: url(../../assets/PS4bg.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -218,7 +218,7 @@ export default {
   padding: 20px;
 }
 .bg {
-  background-image: url(../assets/bg.png);
+  background-image: url(../../assets/bg.png);
   // background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center -150px;

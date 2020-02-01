@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import index from '@/components/index'
+import index from '_b/index'
 
 Vue.use(Router)
 
@@ -14,32 +14,27 @@ export default new Router({
       children: [{
         path: 'show',
         name: 'show',
-        component: () => import('@/components/show')
+        component: () => import('_b/show')
       },
       {
         path: 'video',
         name: 'video',
-        component: () => import('@/components/video')
+        component: () => import('_b/video')
       },
       {
         path: 'ps4',
         name: 'ps4',
-        component: () => import('@/components/ps4')
+        component: () => import('_b/ps4')
       },
       {
         path: 'grade',
         name: 'grade',
-        component: () => import('@/components/grade')
-      },
-      {
-        path: 'sekiro',
-        name: 'sekiro',
-        component: () => import('@/components/sekiro')
+        component: () => import('_b/grade')
       },
       {
         path: 'setting',
         name: 'setting',
-        component: () => import('@/components/setting')
+        component: () => import('_b/setting')
       },
     ]
     }
