@@ -78,41 +78,6 @@ export default {
           content: "新闻内容"
         },
         {
-          title: "This is title 1",
-          description:
-            "This is description, this is description, this is description.",
-          content:
-            "This is the content, this is the content, this is the content, this is the content."
-        },
-        {
-          title: "This is title 2",
-          description:
-            "This is description, this is description, this is description.",
-          content:
-            "This is the content, this is the content, this is the content, this is the content."
-        },
-        {
-          title: "This is title 3",
-          description:
-            "This is description, this is description, this is description.",
-          content:
-            "This is the content, this is the content, this is the content, this is the content."
-        },
-        {
-          title: "This is title 4",
-          description:
-            "This is description, this is description, this is description.",
-          content:
-            "This is the content, this is the content, this is the content, this is the content."
-        },
-        {
-          title: "This is title 5",
-          description:
-            "This is description, this is description, this is description.",
-          content:
-            "This is the content, this is the content, this is the content, this is the content."
-        },
-        {
           title: "假翻页",
           description: "内容不多，没有发布模块",
           content: "仅仅视觉效果"
